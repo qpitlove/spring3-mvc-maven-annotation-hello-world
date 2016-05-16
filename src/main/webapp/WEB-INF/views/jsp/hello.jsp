@@ -70,11 +70,13 @@
   </footer>
 </div>
  
-<spring:url value="/resources/core/css/hello.js" var="coreJs" />
-<spring:url value="/resources/core/css/bootstrap.min.js" var="bootstrapJs" />
- 
-<script src="${coreJs}"></script>
+<spring:url value="/resources/core/js/jquery-2.2.3.min.js" var="jqueryJs" />
+<spring:url value="/resources/core/js/bootstrap.min.js" var="bootstrapJs" />
+<spring:url value="/resources/core/js/hello.js" var="coreJs" />
+
+<script src="${jqueryJs}"></script>
 <script src="${bootstrapJs}"></script>
+<script src="${coreJs}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
  
 </body>
